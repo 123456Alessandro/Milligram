@@ -1,0 +1,126 @@
+/* Stile personalizzato per la SPA Milligram CSS */
+
+/* Stile del corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stile del contenitore principale */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Stile dell'intestazione */
+header {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+/* Stile dei link di navigazione */
+header nav a {
+    font-size: 1.25rem;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #2980b9;
+}
+
+/* Stile degli elementi di testo */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Stile delle liste */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #e8e8e8;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+/* Aggiunta di stili per rendere il codice più leggibile */
+pre {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Stile pulsante */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Stili per il layout della pagina */
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+aside {
+    flex: 0 0 20%; /* larghezza della sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #dee2e6;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    overflow: auto;
+}
+
+footer {
+    flex-shrink: 0;
+}
